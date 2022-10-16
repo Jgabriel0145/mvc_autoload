@@ -9,8 +9,6 @@ use \PDO;
 class ProdutoDAO extends DAO
 {
 
-    private $conexao;
-
     function __construct()
     {
         parent::__construct();

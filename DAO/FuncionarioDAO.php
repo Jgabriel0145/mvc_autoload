@@ -9,8 +9,6 @@ use \PDO;
 class FuncionarioDAO extends DAO
 {
 
-    private $conexao;
-
     function __construct()
     {
         parent::__construct();
